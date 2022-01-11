@@ -1,0 +1,118 @@
+@media only screen and (max-width:1024px){
+    .menubar{
+    .menu{
+       
+        ul{
+            li{
+                padding-left:14px;
+                a{
+                    font-size: 13px;
+                }
+                button{
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+}
+
+.main_banner{
+    .bannerText{
+    h1{
+        font-size: 58px;
+    }
+}
+}
+}
+
+@media only screen and (max-width:767px){
+    .section_heading{
+        margin-top: 35px;
+    padding-top: 0px;
+    padding-bottom: 35px;
+}
+.section_banner .section_bannerText{
+    padding: 30px 15px;
+}
+    .menubar
+    {.menu{
+        .toggleBtn{
+            display: block;
+            i{
+                color: white;
+                font-size: 32px;
+            }
+        }
+        ul{
+            display: none;
+        }
+    }
+    }
+    .main_banner{
+        .bannerText{
+        h1{
+            font-size: 32px;
+        }
+    }
+    }
+    .gym_feature{
+    .gymItem{
+        flex: 1 1 100%;
+    }
+}
+.ourclass{
+    flex-direction: column;
+    .season_tab{
+        width: 100%;
+    }
+    .season_content{
+        margin-left: 0;
+    }
+}
+.schedule{
+    margin-top: 30px;
+}
+.schedule_day{
+    ul{
+    flex-wrap: wrap;
+}
+}
+
+.manTrainers{
+    flex-wrap: wrap;
+    .trainer
+    {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.mapContact{
+    flex-direction: column;
+    
+    .map{
+        max-width: 100%;
+        width: 100%;
+    }
+    .contact{
+        padding: 30px 20px;
+        .form_div{
+            div{
+         
+        input{
+            width: 100%;
+            max-width: 100%!important;
+ 
+        }
+     }
+     .row .col-6
+     {
+
+        width: 100%;
+     }
+     }
+     }
+}
+}   

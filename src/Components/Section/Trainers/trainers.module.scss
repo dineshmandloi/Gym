@@ -1,0 +1,52 @@
+.manTrainers{
+    display: flex;
+   .trainer{
+    max-width: 33.333%;
+    flex: 1 0 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+.trainerItem{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 7px;
+    padding: 40px;
+    height: 100%;
+
+    .trainerImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: auto;
+        }
+    }
+
+}
+    a{
+        display: block;
+        pointer-events: none;
+        text-transform: capitalize;
+    }
+    h4{
+        text-transform: capitalize;
+        font-size: 19px;
+        margin: 4px 0 15px 0;
+    }
+    i{
+        padding-right: 15px;
+    }
+    
+    .icon{
+        display: flex;
+        margin-top: 10px;
+        a{
+            pointer-events: auto;
+            color: #232d39;
+        }
+    }
+    }
+}
+
+@import '/src/responsive.scss';

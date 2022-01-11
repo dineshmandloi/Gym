@@ -1,0 +1,23 @@
+.main_banner{
+    background-image: url(../../images/main_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    min-height: 100vh;
+    .bannerText{
+        position:absolute;
+        top: 38%;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;  
+        h6{
+            font-size: 18px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+     }
+  
+}
+@import '/src/responsive.scss';

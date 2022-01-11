@@ -1,0 +1,24 @@
+.section_banner{
+    background-image: url('../../../images/cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    .section_bannerText{
+        max-width: 950px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 120px 15px;
+
+        .banner_heading{
+            display: flex;
+            justify-content: center;
+      }
+      p{
+          padding:14px 0 ;
+      }
+    }
+}
+@import '/src/responsive.scss';

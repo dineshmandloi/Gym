@@ -1,0 +1,62 @@
+@import '/src/variable.scss';
+
+@mixin heading_value($font ,$color){
+    font-size: $font;
+    color: $color;
+    text-transform: uppercase;
+}
+.heading{
+    @include heading_value(30px,$secondaryColor)
+}
+.heading_color{
+    color: $primaryColor;
+}
+.whiteColor{
+    color: $whiteColor;
+}
+
+// font weight
+
+.fontWeight_100{
+    font-weight: 100;
+}
+.fontWeight_200{
+    font-weight: 200;
+}.fontWeight_300{
+    font-weight: 300;
+}.fontWeight_400{
+    font-weight: 400;
+}.fontWeight_500{
+    font-weight: 500;
+}.fontWeight_600{
+    font-weight: 600;
+}.fontWeight_700{
+    font-weight: 700;
+}.fontWeight_800{
+    font-weight: 800;
+}.fontWeight_900{
+    font-weight: 900;
+}.fontWeight_normal{
+    font-weight: normal;
+}
+
+// font size
+    .xxl{
+        font-size: 82px;
+    }
+.lg{
+    font-size: 32px;
+}
+.lg_39{
+    font-size: 39px;
+}
+
+.md{
+    font-size: 28px;
+}
+.md_21{
+    font-size: 21px;
+}
+.md_18{
+    font-size: 18px;
+}

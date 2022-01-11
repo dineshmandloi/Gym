@@ -1,0 +1,20 @@
+@import '/src/variable.scss';
+
+@mixin btn{
+    background-color: $primaryColor;
+    border: 0;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+.commonBtn{
+    @include btn;
+ }
+ .pad_banner_btn{
+     padding: 15px 19px;
+    font-size: 15px;
+    margin-top: 10px;
+ }
+ 
+
+ 

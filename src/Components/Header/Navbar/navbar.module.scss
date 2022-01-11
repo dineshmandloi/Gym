@@ -1,0 +1,52 @@
+@import '/src/variable.scss';
+@import '/src/utilities.scss';
+
+.navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    // opacity: 0.1;
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    .logo a {
+        text-decoration: none;
+    }
+    .menu{
+        .toggleBtn{
+            display: none;
+        }
+            ul{
+                display: flex;
+                align-items: center;
+                list-style: none;
+                li{
+                    padding-left: 45px;
+                    a{
+                        font-size: 14px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        color: $whiteColor;
+                        &:hover{
+                            color: $primaryColor;
+                        }
+                    }
+                     button{
+                        padding: 14px 20px;
+                        color: white;
+                    }
+                }
+                
+            }
+            ul li:first-child>a{
+                    color: $primaryColor;
+            }
+            
+    }
+}
+@import '/src/responsive.scss';

@@ -1,0 +1,25 @@
+@import '/src/utilities.scss';
+.gym_feature{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .gymItem{
+        display: flex;
+        // align-items: center;
+        margin-bottom: 50px;
+        flex: 0 1 50%;
+    .gymText{
+        margin-left: 30px;
+        h4{
+            text-transform: capitalize;
+        }
+        p{
+            padding:6px 0;
+        }
+    }
+    }
+}
+
+@import '/src/responsive.scss';
+
+

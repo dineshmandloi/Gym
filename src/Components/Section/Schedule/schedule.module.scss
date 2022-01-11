@@ -1,0 +1,60 @@
+@import '/src/utilities.scss';
+@import '/src/variable.scss';
+
+
+.schedule{
+    background-image: url(../../../images/schedule-bg.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 1px 0px 140px;
+    margin-top: 90px;
+}
+.schedule_day ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 40px;
+    li{
+        + li:before{
+            padding: 8px;
+        color: rgb(255, 255, 255);
+        content: "/ ";
+        }
+       
+        a{
+        color: white;
+        text-transform: capitalize;
+        text-decoration: none;
+        }
+        a:hover{
+            color:$primaryColor;
+        }
+    }
+     li:first-child a{
+         color: $primaryColor;
+     }
+}
+.time_Schedule{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    flex-wrap: wrap;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // flex: 1 1 100%;
+        border: 1px solid;
+        max-width: calc(22.5% - 0px);
+        width: 100%;
+        min-height: 100px;
+        height: auto;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+    }
+}
+
+@import '/src/responsive.scss';
